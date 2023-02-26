@@ -73,6 +73,15 @@
 .icon-down{
     color: #EA5455;
 }
+.icon-blue{
+    color: #054da7;
+}
+.icon-white{
+    color: #ddf1ff;
+}
+.icon-purple{
+    color: #5f35ae;
+}
 .icon-text{
     display: flex;
     align-items: center;

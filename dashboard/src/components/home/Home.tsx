@@ -3,6 +3,8 @@ import {
   FaceSmileIcon,
   ChevronUpIcon,
   ChevronDownIcon,
+  CheckCircleIcon,
+  InformationCircleIcon,
 } from "@heroicons/react/24/solid";
 import { CssVarsProvider } from "@mui/joy/styles";
 import { CircularProgress } from "@mui/joy";
@@ -37,7 +39,12 @@ function Home() {
               </CircularProgress>
             </CssVarsProvider>
           </div>
-          <span>Esperado 100 Alcançado 70</span>
+          <div className="icon-text">
+            <CheckCircleIcon className="icon-20 icon-white" />
+            <span>Esperado 100</span>
+            <InformationCircleIcon className="icon-20 icon-blue" />
+            <span>Alcançado 70</span>
+          </div>
         </div>
         <div id="meta-mensal">
           <h1>Meta mensal</h1>
@@ -58,7 +65,12 @@ function Home() {
               </CircularProgress>
             </CssVarsProvider>
           </div>
-          <span>Esperado R$ 70K Alcançado R$ 63K</span>
+          <div className="icon-text">
+            <CheckCircleIcon className="icon-20 icon-white" />
+            <span>Esperado R$ 70K</span>
+            <InformationCircleIcon className="icon-20 icon-purple" />
+            <span>Alcançado R$ 63K</span>
+          </div>
         </div>
       </div>
       <div className="box box-vendas">
